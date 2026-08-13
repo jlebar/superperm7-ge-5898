@@ -1,0 +1,27 @@
+name = "superperm7"
+version = "1.0.0"
+defaultTargets = ["Superperm7"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.30.0"
+
+[[lean_lib]]
+name = "Superperm7"
+precompileModules = true
+
+# --- statement layer for github.com/leanprover/comparator (see comparator/README.md).
+# Trusted: ChallengeDeps + Challenge (Mathlib only).  Untrusted: Solution (imports Superperm7).
+# Not in defaultTargets; build with `lake build Challenge Solution`.
+[[lean_lib]]
+name = "ChallengeDeps"
+srcDir = "comparator"
+
+[[lean_lib]]
+name = "Challenge"
+srcDir = "comparator"
+
+[[lean_lib]]
+name = "Solution"
+srcDir = "comparator"

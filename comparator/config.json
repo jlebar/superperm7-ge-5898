@@ -1,0 +1,17 @@
+{
+ "challenge_module": "Challenge",
+ "solution_module": "Solution",
+ "theorem_names": [
+  "superperm7_upper_5906",
+  "superperm7_lower_5897",
+  "superperm7_lower_5898"
+ ],
+ "permitted_axioms": [
+  "propext",
+  "Classical.choice",
+  "Quot.sound",
+  "Lean.ofReduceBool",
+  "Lean.trustCompiler"
+ ],
+ "enable_nanoda": false
+}

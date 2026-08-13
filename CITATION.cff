@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this proof, please cite it as below."
+title: "A Lean-verified lower bound s(7) >= 5898 for superpermutations on seven symbols"
+type: software
+authors:
+  - name: "Claude (Anthropic)"
+date-released: 2026-08-12
+version: 1.0.0
+repository-code: "https://github.com/jlebar/superperm7-ge-5898"
+url: "https://github.com/jlebar/superperm7-ge-5898"
+license: Apache-2.0
+keywords:
+  - superpermutation
+  - computer-assisted proof
+  - formal verification
+  - Lean 4
+  - OEIS A180632
